@@ -1,0 +1,88 @@
+.calendar {
+	width: 100%;
+	text-align: center;
+}
+
+.calendar .calendarheader{
+	color: #212529;
+	font-weight: 500;
+	height: 40px;
+	line-height: 40px;
+	background: #f6f6f6;
+}
+
+.titlemonth {
+	text-transform: uppercase;
+	width: 40%;
+	float: left;
+}
+
+.next, .prev{
+	width: 30%;
+	float: left;
+}
+
+.titleday {
+	padding: 20px 0 10px;
+	color: #a9a9a9;
+}
+
+.calenderday, .titleday {
+	display: block;
+	float: left;
+	width: 11%;
+	font-weight: 300;
+}
+
+.calenderday {
+	border-bottom: 1px solid #f6f6f6;
+}
+
+.date {
+	line-height: 2.5em;
+}
+
+.today {
+	color: #d71f2d;
+	font-weight: 500;
+	background: #f6f6f6;
+}
+
+.active{
+	font-weight: 500;
+}
+
+
+.titleday {
+	font-weight: bold;
+}
+
+.daysrow, .calendarrow {
+	clear: both;
+	margin: 0 11%;
+	width: 100%;
+}
+
+.check{
+	margin: 0 auto;
+	width: 16px;
+	line-height: 0.7em;
+}
+
+.professional, .private{
+	float: left;
+	margin: 1px;
+}
+
+.professional{
+	color: red;
+}
+
+.private a {
+	color: blue;
+}
+
+.planning {
+	float: none;
+	clear: both;
+}

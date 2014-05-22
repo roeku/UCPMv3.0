@@ -1,0 +1,305 @@
+*, *:after, *:before { -webkit-box-sizing: border-box; -moz-box-sizing: border-box; box-sizing: border-box; }
+body, html { font-size: 100%; padding: 0; margin: 0;}
+
+
+a {
+	text-decoration: none;
+	color: inherit; 
+}
+
+
+
+
+
+/*MENU TITEL*/
+
+
+/*KLANTEN*/
+.frame {
+	font-size: 12px;
+}
+
+.frame ul {
+	margin: 0; padding: 0;}
+
+.frame ul li {
+	list-style-type: none;
+	height: 60px;
+}
+
+.frame ul li:last-child{
+	border: none;
+}
+
+.listitem {
+	width: 100%;
+}
+
+.listitem .icon {
+	width: 20%;
+	height: 100%;
+	float: left;
+}
+
+.listitem .wrapper {
+	height: 100%;
+	width: 60%;
+	float: left;
+	padding: 10px 0;
+}
+
+.listitem .name, .listitem .detail {
+	height: 50%;
+	line-height: 20px;
+	}
+	
+.listitem .name {
+	font-size: 13px;
+	font-weight: bold;
+}
+
+
+.listitem .list-button {
+	width: 20%;
+	height: 100%;
+	float: right;
+	line-height: 60px;
+	font-family: "dripicons";
+	font-size: 25px;
+	color: #d71f2d;
+}
+
+.circular {
+	-moz-border-radius:20px;
+	-webkit-border-radius:20px;
+	border-radius:20px;
+	width:40px;
+	height:40px;
+	display: block;
+	margin: 10px auto;
+}
+
+
+/*KLANTENDETAIL*/
+
+.circular_big {
+	-moz-border-radius:30px;
+	-webkit-border-radius:30px;
+	border-radius:30px;
+	width:60px;
+	height:60px;
+	display: block;
+	margin: 20px auto;
+}
+
+
+.dividerheader .listitem{
+	height: 80px;
+}
+
+.dividerheader .wrapper{
+	padding: 20px 0;
+}
+
+.dividerheader .name {
+font-size: 17px;
+}
+
+.dividerheader .detail {
+font-size: 13px;
+}
+
+.dividerheader .circular {
+	-moz-border-radius:30px;
+	-webkit-border-radius:30px;
+	border-radius:30px;
+	width:60px;
+	height:60px;
+}
+
+
+
+
+.frame .dividerlist li {
+	padding: 5px 30px;
+}
+
+
+/*GENERIC*/
+
+.white {
+	background: white;
+	color: #646464;
+		font-weight: 100;
+
+}
+
+.white h3 {
+	color: #d71f2d;
+	margin: 0;
+	padding: 0;
+	font-weight: 100;
+	font-size: 11px;
+	margin-bottom: 5px;
+
+}
+
+.white ul li {
+	border-bottom: 1px solid #dce0e2;
+}
+
+.black ul li {
+	border-bottom: 1px solid #505354;
+}
+
+.grey {
+	background-color: #f8f9f9;
+}
+
+.black {
+	color: white;
+}
+
+.black .detail {
+	color: #bac1c5;
+}
+
+.left {
+	float: left;
+}
+
+.right {
+	float: right;
+}
+
+/*FAQ*/
+
+.faq_container, .checkup_container, .checkup_wrapper {
+	margin: 10px 30px;
+	padding: 20px;
+	-webkit-border-radius: 4px;
+	overflow: hidden;
+}
+
+.faq_container .wrapper{
+		margin-left: 20px;
+}
+
+.faq_container .content{
+	padding: 0;
+	margin: 0;
+	font-weight: normal;
+	font-style: italic;
+	font-size: 18px;
+}
+
+.faq, .faq .swiper-container {
+	margin: 0;
+	padding: 0;
+	top:0;
+	text-align: justify;
+}
+
+.faq_social{
+	margin: 10px 40px;
+	color: #fff;
+	font-size: 13px;
+}
+
+
+/*CHECKUP*/
+.checkup_container {
+	padding: 0;
+	margin: 0;
+}
+
+.checkup_wrapper {
+padding: 0;
+}
+
+.cover {
+	height: 150px;
+	overflow: hidden;
+	width: 100%;
+	-moz-filter: grayscale(100%);
+	filter: grayscale(100%);
+	-webkit-filter: grayscale(100%);
+	background: #505354;
+}
+
+.content_checkup, .title_checkup{
+	padding: 0 20px;
+}
+
+
+p.content_checkup{
+	font-size: 13px;
+}
+
+.document {
+	font-size: 20px;
+	float: right;
+	margin-left: 20px;
+	margin-bottom: 10px;	
+	color: #505354;
+}
+
+.help {
+	font-weight: 100;
+	font-size: 12px;
+	color: #bac1c5;
+}
+
+.icon_groot{
+	margin: 20px 100px;
+}
+
+.icon_groot .icon{
+	color: #bcbcbc;
+	font-size: 150px;
+}
+
+.notif {
+	padding: 10px;
+	margin: 30px;
+	font-size: 15px;
+	font-weight: 100;
+	text-align: center;
+}
+
+
+.checkupclient{
+	margin-left: 40px;
+	margin-bottom: 20px;
+}
+
+.add_note input[type="text"] {
+    -webkit-border-radius: 5px; //For Safari, etc.
+    -moz-border-radius: 5px; //For Mozilla, etc.
+    border-radius: 5px; //CSS3 Feature
+	width: 200px;
+	margin: 20px 10px 5px 10px;
+	padding: 10px;
+	border:1px solid #cccccc;
+}
+
+.add_note textarea {
+	border:1px solid #cccccc;
+	margin: 10px;
+	padding: 10px;
+	    -webkit-border-radius: 5px; //For Safari, etc.
+    -moz-border-radius: 5px; //For Mozilla, etc.
+    border-radius: 5px; //CSS3 Feature
+}
+
+.add_note input[type="submit"] {
+	border: none;
+	display: inline-block;
+	background: none;
+	color: #ffffff;
+	background-color: #d71f2d;
+	padding: 5px;
+	    -webkit-border-radius: 4px; //For Safari, etc.
+    -moz-border-radius: 4px; //For Mozilla, etc.
+    border-radius: 4px; //CSS3 Feature
+}
